@@ -2,10 +2,7 @@ package a00;
 
 /**
  * Subclase Empleado: hereda de Persona.
- * Añade el atributo privado "salario" y oculta "estatura".
- * En mostrarDatos() se OCULTA intencionalmente la estatura (dato irrelevante
- * en un contexto laboral) para ilustrar cómo una subclase puede decidir
- * qué información de la superclase expone.
+ * Añade el atributo privado "salario".
  */
 public class Empleado extends Persona {
 
